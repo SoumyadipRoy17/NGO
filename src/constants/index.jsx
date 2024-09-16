@@ -1,13 +1,13 @@
-import dish1 from "../assets/r1.jpeg";
-import dish2 from "../assets/r2.jpeg";
-import dish3 from "../assets/r3.jpeg";
-import dish4 from "../assets/r4.jpeg";
-import dish5 from "../assets/Rahul_sir.jpeg";
-import dish6 from "../assets/r6.jpeg";
-import dish7 from "../assets/art_craft.jpeg";
-import dish8 from "../assets/carrom.jpeg";
-import dish9 from "../assets/r1.jpeg";
-import dish10 from "../assets/r3.jpeg";
+import story1 from "../assets/r1.jpeg";
+import story2 from "../assets/r2.jpeg";
+import story3 from "../assets/r3.jpeg";
+import story4 from "../assets/r4.jpeg";
+import story5 from "../assets/Rahul_sir.jpeg";
+import story6 from "../assets/r6.jpeg";
+import story7 from "../assets/art_craft.jpeg";
+import story8 from "../assets/carrom.jpeg";
+import story9 from "../assets/r1.jpeg";
+import story10 from "../assets/r3.jpeg";
 
 import chess from "../assets/chess.jpeg";
 import art_craft from "../assets/art_craft.jpeg";
@@ -16,7 +16,7 @@ import carrom from "../assets/carrom.jpeg";
 import { FaXTwitter, FaFacebook, FaInstagram } from "react-icons/fa6";
 
 export const LINKS = [
-  { text: "Dishes", targetId: "dishes" },
+  { text: "Storyes", targetId: "storyes" },
   { text: "About", targetId: "about" },
   { text: "Mission", targetId: "mission" },
   { text: "Expertise", targetId: "expertise" },
@@ -26,62 +26,69 @@ export const LINKS = [
 
 export const DISHES = [
   {
-    image: dish1,
-    title: "Spaghetti Carbonara",
-    description: "Creamy pasta with bacon and cheese",
-  },
-  {
-    image: dish2,
-    title: "Chicken Tikka Masala",
-    description: "Indian curry with tender chicken in spicy sauce",
-  },
-  {
-    image: dish3,
-    title: "Caprese Salad",
-    description: "Fresh tomatoes, mozzarella, and basil with balsamic glaze",
-  },
-  {
-    image: dish4,
-    title: "Sushi Roll",
-    description: "Assorted seafood and vegetables wrapped in seaweed and rice",
-  },
-  {
-    image: dish5,
-    title: "Chocolate Lava Cake",
-    description: "Decadent chocolate cake with a gooey center",
-  },
-  {
-    image: dish6,
-    title: "Greek Salad",
-    description: "Crisp lettuce, olives, feta cheese, and tangy dressing",
-  },
-  {
-    image: dish7,
-    title: "Pad Thai",
-    description: "Stir-fried rice noodles with shrimp, tofu, and peanuts",
-  },
-  {
-    image: dish8,
-    title: "Peking Duck",
-    description: "Crispy duck with pancakes, cucumber, and hoisin sauce",
-  },
-  {
-    image: dish9,
-    title: "Beef Wellington",
-    description: "Tender beef filet wrapped in pastry with mushrooms and herbs",
-  },
-  {
-    image: dish10,
-    title: "Tiramisu",
+    image: story1,
+    title: "Artistry in Motion",
     description:
-      "Italian dessert with layers of coffee-soaked biscuits and mascarpone",
+      "A child expresses their creativity through painting and crafts.",
+  },
+  {
+    image: story2,
+    title: "Culinary Creations",
+    description:
+      "Learning to cook delicious meals and experimenting with flavors.",
+  },
+  {
+    image: story3,
+    title: "Music for the Soul",
+    description: "Playing instruments and composing tunes that inspire.",
+  },
+  {
+    image: story4,
+    title: "Theatrical Talents",
+    description: "Acting and performing in plays that tell heartfelt stories.",
+  },
+  {
+    image: story5,
+    title: "Sports Achievers",
+    description:
+      "Showing discipline and teamwork on the field in various sports.",
+  },
+  {
+    image: story6,
+    title: "Future Innovators",
+    description:
+      "Building and creating with science, technology, and imagination.",
+  },
+  {
+    image: story7,
+    title: "Dancers with Dreams",
+    description:
+      "Mastering different dance styles and expressing emotions through movement.",
+  },
+  {
+    image: story8,
+    title: "Storytellers of Tomorrow",
+    description:
+      "Writing captivating stories and poems that reflect their world.",
+  },
+  {
+    image: story9,
+    title: "Crafting with Care",
+    description:
+      "Creating beautiful handmade crafts that showcase creativity and precision.",
+  },
+  {
+    image: story10,
+    title: "Young Leaders in Action",
+    description:
+      "Developing leadership and teamwork skills through group projects.",
   },
 ];
 
 export const ABOUT = {
   header: "We love to bring change!",
   content:
-    "At Restaura, we believe that great food goes beyond taste; it tells a story of dedication and creativity. From our chef's signature creations to our attentive service, every detail is curated to ensure your visit is nothing short of exceptional. Whether you're savoring our renowned Tikka Kebab or exploring our diverse menu inspired by global flavors, each dish is a celebration of flavor and innovation. Join us for a culinary journey where every bite leaves a lasting impression. Experience Restaura—where every meal is a masterpiece.",
+    "At Restaura, we believe that great food goes beyond taste; it tells a story of dedication and creativity. From our chef's signature creations to our attentive service, every detail is curated to ensure your visit is nothing short of exceptional. Whether you're savoring our renowned Tikka Kebab or exploring our diverse menu inspired by global flavors, each story is a celebration of flavor and innovation. Join us for a culinary journey where every bite leaves a lasting impression. Experience Restaura—where every meal is a masterpiece.",
 };
 
 export const MISSION =
