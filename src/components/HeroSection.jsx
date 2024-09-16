@@ -1,5 +1,5 @@
 import logo from "../assets/logo.png";
-import hero from "../assets/hero.jpeg";
+import hero from "../assets/r5.jpeg";
 import video from "../assets/NGOvideo.mp4";
 import { motion } from "framer-motion";
 

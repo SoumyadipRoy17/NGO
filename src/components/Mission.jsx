@@ -1,4 +1,4 @@
-import missionImg from "../assets/mission.jpeg";
+import missionImg from "../assets/r1.jpeg";
 import mission from "../assets/clipped_NGOVideo.mp4";
 import { MISSION } from "../constants";
 import { motion } from "framer-motion";
