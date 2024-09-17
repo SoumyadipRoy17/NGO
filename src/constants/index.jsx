@@ -16,9 +16,9 @@ import carrom from "../assets/carrom.jpeg";
 import { FaXTwitter, FaFacebook, FaInstagram } from "react-icons/fa6";
 
 export const LINKS = [
-  { text: "Storyes", targetId: "storyes" },
-  { text: "About", targetId: "about" },
-  { text: "Mission", targetId: "mission" },
+  { text: "Home", targetId: "/" },
+  { text: "About", targetId: "/about_us" },
+  { text: "Mission", targetId: "/mission" },
   { text: "Expertise", targetId: "expertise" },
   { text: "Review", targetId: "review" },
   { text: "Contact", targetId: "contact" },
@@ -88,7 +88,7 @@ export const DISHES = [
 export const ABOUT = {
   header: "We love to bring change!",
   content:
-    "At Restaura, we believe that great food goes beyond taste; it tells a story of dedication and creativity. From our chef's signature creations to our attentive service, every detail is curated to ensure your visit is nothing short of exceptional. Whether you're savoring our renowned Tikka Kebab or exploring our diverse menu inspired by global flavors, each story is a celebration of flavor and innovation. Join us for a culinary journey where every bite leaves a lasting impression. Experience Restaura—where every meal is a masterpiece.",
+    "“At Prajakirana Seva Charitable Trust, we are committed to creating a safe, nurturing environment where orphaned children can thrive emotionally, physically, and academically. Our mission is to provide every child with the love, care, and support they need to overcome challenges and realize their full potential. Academically. Our mission is to provide every child with the love, care, and support they need to overcome challenges and realize their full potential.  We are extremely grateful to our donors and volunteers who make our work possible. Together, we are changing lives and building a brighter future for orphaned children in need”",
 };
 
 export const MISSION =

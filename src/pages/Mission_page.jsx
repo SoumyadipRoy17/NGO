@@ -1,15 +1,14 @@
-import logo from "../assets/logo.png";
-import NGOMainlogo from "../assets/NGOMainlogo.png";
+import logo from "../assets/test_mission.png";
 import hero from "../assets/r5.jpeg";
-import video from "../assets/NGOvideo.mp4";
+
 import { motion } from "framer-motion";
 
-const HeroSection = () => {
+const Mission_page = () => {
   return (
     <>
-      <section className="relative flex h-screen items-center justify-center ">
+      <section id="mission_page" className="relative flex h-screen ">
         <div className="absolute inset-0 -z-20 h-full w-full overflow-hidden  ">
-          <video
+          {/* <video
             src={video}
             className="h-full w-full object-cover"
             muted
@@ -17,16 +16,16 @@ const HeroSection = () => {
             loop
             playsInline
             poster={hero}
-          ></video>
-          {/* <motion.img
+          ></video> */}
+          <motion.img
             src={hero}
             className="h-full w-full object-cover"
-            alt="hero"
-          ></motion.img> */}
+            alt="Kids planting trees"
+          ></motion.img>
         </div>
 
         <div className="absolute inset-0 -z-10 bg-gradient-to-b from-transparent from70% to-black"></div>
-        <div className="relative z-20 flex h-screen flex-col justify-end pb-20">
+        <div className="relative z-20 flex h-screen flex-col justify-end pb-60 ">
           <motion.img
             initial={{ opacity: 0, y: 0 }}
             animate={{ opacity: 1, y: 50 }}
@@ -36,11 +35,10 @@ const HeroSection = () => {
             alt="restaura"
             className="w-full p-4"
           ></motion.img>
-          <p className="p-4 text-lg tracking-tighter  text-white">Paris</p>
         </div>
       </section>
     </>
   );
 };
 
-export default HeroSection;
+export default Mission_page;
