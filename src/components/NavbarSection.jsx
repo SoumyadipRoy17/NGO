@@ -54,7 +54,7 @@ const NavbarSection = () => {
                 key={index}
                 href={`${link.targetId}`}
                 className=" block p-4 hover:opacity-50 uppercase tracking-tighter "
-                onClick={(e) => handleScroll(e, link.targetId)}
+                // onClick={(e) => handleScroll(e, link.targetId)}
               >
                 {link.text}
               </a>
