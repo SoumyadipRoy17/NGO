@@ -1,11 +1,13 @@
+import { LazyLoadImage } from "react-lazy-load-image-component";
+import "react-lazy-load-image-component/src/effects/blur.css";
+
 const DishCard = ({ project }) => {
   return (
     <div>
-      <img
+      <LazyLoadImage
         src={project.image}
         alt={project.title}
         className="rounded-3xl p-2 "
-        loading="lazy" // Lazy load the image
         srcSet={`${project.image}?w=300 300w, ${project.image}?w=600 600w, ${project.image}?w=900 900w`} // Responsive images
         sizes="(max-width: 600px) 300px, (max-width: 900px) 600px, 900px" // Provide image sizes for different breakpoints
       />

@@ -3,6 +3,8 @@ import NGOMainlogo from "../assets/NGOMainlogo.png";
 import hero from "../assets/r5.jpeg";
 import video from "../assets/NGOvideo.mp4";
 import { motion } from "framer-motion";
+import { LazyLoadImage } from "react-lazy-load-image-component";
+import "react-lazy-load-image-component/src/effects/blur.css";
 
 const HeroSection = () => {
   return (
@@ -27,7 +29,8 @@ const HeroSection = () => {
 
         <div className="absolute inset-0 -z-10 bg-gradient-to-b from-transparent from70% to-black"></div>
         <div className="relative z-20 flex h-screen flex-col justify-end pb-20">
-          <motion.img
+          <LazyLoadImage
+            effect="blur"
             initial={{ opacity: 0, y: 0 }}
             animate={{ opacity: 1, y: 50 }}
             //whileInView={{ opacity: 1, y: 0 }}
@@ -35,7 +38,7 @@ const HeroSection = () => {
             src={logo}
             alt="restaura"
             className="w-full p-4"
-          ></motion.img>
+          ></LazyLoadImage>
           <p className="p-4 text-lg tracking-tighter  text-white">Paris</p>
         </div>
       </section>
