@@ -19,9 +19,9 @@ export const LINKS = [
   { text: "Home", targetId: "/" },
   { text: "About", targetId: "/about_us" },
   { text: "Mission", targetId: "/mission" },
-  { text: "Expertise", targetId: "expertise" },
-  { text: "Review", targetId: "review" },
-  { text: "Contact", targetId: "contact" },
+  { text: "Activities", targetId: "/activities" },
+  { text: "Contribute ", targetId: "/contribute" },
+  { text: "Contact Us", targetId: "/contact_us" },
 ];
 
 export const DISHES = [
@@ -126,9 +126,13 @@ export const REVIEW = {
 };
 
 export const CONTACT = [
-  { key: "address", value: "Address: 123 Main Street, Paris, France, 345678" },
+  {
+    key: "address",
+    value:
+      "Address: VF48+878, 26/2, Devagere, Kaggalipur Road, Kumbalgodu, Bengaluru,Karnataka 560060",
+  },
   { key: "phone", value: "Phone: 123-456-7890" },
-  { key: "email", value: "Email: contact@restaurant.com" },
+  { key: "email", value: "Email: contact.com" },
 ];
 
 export const SOCIAL_MEDIA_LINKS = [

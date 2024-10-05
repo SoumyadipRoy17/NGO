@@ -9,3 +9,13 @@
   /* background-color: #84f542; */
   background-color: black;
 }
+
+.gradient-text {
+  background: linear-gradient(
+    to right,
+    #ff7e5f,
+    #feb47b
+  ); /* Adjust colors as per your requirement */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}

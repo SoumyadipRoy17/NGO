@@ -14,6 +14,9 @@ import About_Us from "./pages/About_Us";
 import Home from "./pages/Home";
 
 import Mission_page from "./pages/Mission_page";
+import Contribute from "./pages/Contribute";
+import Activities from "./pages/Activities";
+import Contact_Us from "./pages/Contact_Us";
 
 function App() {
   return (
@@ -25,6 +28,9 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/about_us" element={<About_Us />} />
           <Route path="/mission" element={<Mission_page />} />
+          <Route path="/contribute" element={<Contribute />} />
+          <Route path="/activities" element={<Activities />} />
+          <Route path="/contact_us" element={<Contact_Us />} />
         </Routes>
       </BrowserRouter>
       <Footer />
