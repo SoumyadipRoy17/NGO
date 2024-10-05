@@ -1,5 +1,6 @@
 import logo from "../assets/logo.png";
 import NGOMainlogo from "../assets/NGOMainlogo.png";
+import Contribute_img from "../assets/Contribute_img.png";
 import hero from "../assets/r5.jpeg";
 import video from "../assets/NGOvideo.mp4";
 import { motion } from "framer-motion";
@@ -28,18 +29,18 @@ const HeroSection = () => {
         </div>
 
         <div className="absolute inset-0 -z-10 bg-gradient-to-b from-transparent from70% to-black"></div>
-        <div className="relative z-20 flex h-screen flex-col justify-end pb-20">
-          <LazyLoadImage
+        <div className="relative z-20 flex h-screen flex-col justify-end pb-20 ">
+          {/* <LazyLoadImage
             effect="blur"
             initial={{ opacity: 0, y: 0 }}
             animate={{ opacity: 1, y: 50 }}
             //whileInView={{ opacity: 1, y: 0 }}
             transition={{ ease: "linear", delay: 1 }}
-            src={logo}
-            alt="restaura"
-            className="w-full p-4"
-          ></LazyLoadImage>
-          <p className="p-4 text-lg tracking-tighter  text-white">Paris</p>
+            src={Contribute_img}
+            alt="contribution img"
+            className="w-full p-4 "
+          ></LazyLoadImage> */}
+          <p className="p-4 text-lg tracking-tighter  text-white">Bengaluru</p>
         </div>
       </section>
     </>
