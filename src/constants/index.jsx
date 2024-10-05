@@ -53,36 +53,36 @@ export const DISHES = [
     description:
       "Showing discipline and teamwork on the field in various sports.",
   },
-  {
-    image: story6,
-    title: "Future Innovators",
-    description:
-      "Building and creating with science, technology, and imagination.",
-  },
-  {
-    image: story7,
-    title: "Dancers with Dreams",
-    description:
-      "Mastering different dance styles and expressing emotions through movement.",
-  },
-  {
-    image: story8,
-    title: "Storytellers of Tomorrow",
-    description:
-      "Writing captivating stories and poems that reflect their world.",
-  },
-  {
-    image: story9,
-    title: "Crafting with Care",
-    description:
-      "Creating beautiful handmade crafts that showcase creativity and precision.",
-  },
-  {
-    image: story10,
-    title: "Young Leaders in Action",
-    description:
-      "Developing leadership and teamwork skills through group projects.",
-  },
+  // {
+  //   image: story6,
+  //   title: "Future Innovators",
+  //   description:
+  //     "Building and creating with science, technology, and imagination.",
+  // },
+  // {
+  //   image: story7,
+  //   title: "Dancers with Dreams",
+  //   description:
+  //     "Mastering different dance styles and expressing emotions through movement.",
+  // },
+  // {
+  //   image: story8,
+  //   title: "Storytellers of Tomorrow",
+  //   description:
+  //     "Writing captivating stories and poems that reflect their world.",
+  // },
+  // {
+  //   image: story9,
+  //   title: "Crafting with Care",
+  //   description:
+  //     "Creating beautiful handmade crafts that showcase creativity and precision.",
+  // },
+  // {
+  //   image: story10,
+  //   title: "Young Leaders in Action",
+  //   description:
+  //     "Developing leadership and teamwork skills through group projects.",
+  // },
 ];
 
 export const ABOUT = {
