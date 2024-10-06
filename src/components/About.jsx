@@ -1,6 +1,8 @@
+import { Button } from "flowbite-react";
 import about from "../assets/kids_play.jpeg";
 import { ABOUT } from "../constants";
 import { motion } from "framer-motion";
+import { Link } from "react-router-dom";
 
 const About = () => {
   return (

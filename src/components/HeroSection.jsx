@@ -6,6 +6,9 @@ import video from "../assets/NGOvideo.mp4";
 import { motion } from "framer-motion";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 import "react-lazy-load-image-component/src/effects/blur.css";
+import main from "../assets/main.png";
+import { Link } from "react-router-dom";
+import { Button } from "flowbite-react";
 
 const HeroSection = () => {
   return (
@@ -29,19 +32,31 @@ const HeroSection = () => {
         </div>
 
         <div className="absolute inset-0 -z-10 bg-gradient-to-b from-transparent from70% to-black"></div>
-        <div className="relative z-20 flex h-screen flex-col justify-end pb-20 ">
-          {/* <LazyLoadImage
+        <div className="relative z-20 flex w-screen h-screen flex-col justify-end ">
+          <LazyLoadImage
             effect="blur"
             initial={{ opacity: 0, y: 0 }}
             animate={{ opacity: 1, y: 50 }}
             //whileInView={{ opacity: 1, y: 0 }}
             transition={{ ease: "linear", delay: 1 }}
-            src={Contribute_img}
+            src={main}
             alt="contribution img"
-            className="w-full p-4 "
-          ></LazyLoadImage> */}
+            className="w-[60vw] p "
+          ></LazyLoadImage>
           <p className="p-4 text-lg tracking-tighter  text-white">Bengaluru</p>
         </div>
+        {/* <div className="">
+          <motion.div className="text-center justify-center inline">
+            <Button
+              colorScheme="whiteAlpha"
+              variant="ghost"
+              className="px-4 py-2 bg-pink-500 text-white rounded-xl
+           hover:bg-pink-600"
+            >
+              <Link to="/contribute"> Donate Now </Link>
+            </Button>
+          </motion.div>
+        </div> */}
       </section>
     </>
   );

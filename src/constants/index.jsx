@@ -2,7 +2,7 @@ import story1 from "../assets/r1.jpeg";
 import story2 from "../assets/r2.jpeg";
 import story3 from "../assets/r3.jpeg";
 import story4 from "../assets/r4.jpeg";
-import story5 from "../assets/Rahul_sir.jpeg";
+import story5 from "../assets/m6.jpg";
 import story6 from "../assets/r6.jpeg";
 import story7 from "../assets/art_craft.jpeg";
 import story8 from "../assets/carrom.jpeg";

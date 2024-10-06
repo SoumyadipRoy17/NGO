@@ -17,11 +17,13 @@ import Mission_page from "./pages/Mission_page";
 import Contribute from "./pages/Contribute";
 import Activities from "./pages/Activities";
 import Contact_Us from "./pages/Contact_Us";
+import Contribute_Button from "./components/Contribute_Button";
 
 function App() {
   return (
     <main className="overflow-y-hidden text-neutral-200 antialiased">
       <NavbarSection />
+      <Contribute_Button />
 
       <BrowserRouter>
         <Routes>
