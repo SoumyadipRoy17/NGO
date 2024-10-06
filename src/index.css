@@ -28,3 +28,13 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+
+.gradient-text-green {
+  background: linear-gradient(
+    to right,
+    #228b22,
+    #98fb98
+  ); /* Adjust colors as per your requirement */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}

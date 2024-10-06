@@ -19,19 +19,6 @@ const Contact_Us = () => {
 
   return (
     <>
-      <section id="activities" className="container mt-20 mx-auto">
-        <div className="py-10 flex flex-wrap">
-          <motion.h2
-            initial={{ opacity: 0, y: 50 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            transition={{ duration: 0.6, delay: 0.2 }}
-            className="text-4xl tracking-tighter lg:text-6xl"
-          >
-            Coming <span className="gradient-text">Soon... </span>
-          </motion.h2>
-        </div>
-      </section>
       <ContactSection />
       <section className="container mt-20 mx-auto" id="our_location">
         <h2 className="text-center text-4xl lg:text-4xl">Our Location</h2>

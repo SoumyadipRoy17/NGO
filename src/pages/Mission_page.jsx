@@ -47,10 +47,10 @@ const Mission_page = () => {
 
       <section className="container mt-20 mx-auto " id="mentor">
         <h2 className="text-center text-4xl lg:text-4xl">
-          Providing <span className="gradient-text">love</span>,{" "}
-          <span className="gradient-text">care</span>, and a{" "}
-          <span className="gradient-text">brighter future</span> for every child
-          in need
+          Providing <span className="gradient-text-green">love</span>,{" "}
+          <span className="gradient-text-green">care</span>, and a{" "}
+          <span className="gradient-text-green">brighter future</span> for every
+          child in need
         </h2>
 
         <div className="py-10 flex flex-wrap">
@@ -68,7 +68,7 @@ const Mission_page = () => {
               transition={{ duration: 0.6, delay: 0.2 }}
               className="text-4xl tracking-tighter lg:text-6xl"
             >
-              Mission Statement
+              <span className="gardient-text-green">Mission</span> Statement
             </motion.h2>
             <motion.div
               initial={{ opacity: 0, y: 50 }}
@@ -103,7 +103,7 @@ const Mission_page = () => {
         <section className="container mt-20 mx-auto " id="about">
           <h2 className=" text-center text-4xl  lg:text-4xl">
             {" "}
-            <span className="gradient-text">Our Vision</span>
+            <span className="gradient-text-green">Our Vision</span>
           </h2>
           <div className="py-10 flex flex-wrap">
             <div className="w-full px-2 lg:w-1/2">
@@ -114,7 +114,7 @@ const Mission_page = () => {
                 transition={{ duration: 0.6, delay: 0.2 }}
                 className="text-4xl tracking-tighter lg:text-6xl"
               >
-                Our <span className="gradient-text">Long Term </span>Goal
+                Our <span className="gradient-text-green">Long Term </span>Goal
               </motion.h2>
               <motion.div
                 initial={{ opacity: 0, y: 50 }}
