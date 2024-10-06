@@ -1,6 +1,6 @@
 import logo from "../assets/logo.png";
 import NGOMainlogo from "../assets/NGOMainlogo.png";
-import Contribute_img from "../assets/Contribute_img.png";
+import Contribute_img from "../assets/Contribute_imgs.png";
 import hero from "../assets/r5.jpeg";
 import video from "../assets/NGOvideo.mp4";
 import { motion } from "framer-motion";

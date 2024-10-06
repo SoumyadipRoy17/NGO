@@ -6,7 +6,7 @@
 
 :root {
   font-family: "Inter", sans-serif;
-  /* background-color: #84f542; */
+  /* background-color: #feb47b; */
   background-color: black;
 }
 
@@ -14,6 +14,15 @@
   background: linear-gradient(
     to right,
     #ff7e5f,
+    #feb47b
+  ); /* Adjust colors as per your requirement */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.gradient-text-pink {
+  background: linear-gradient(
+    to right,
+    #ff00ff,
     #feb47b
   ); /* Adjust colors as per your requirement */
   -webkit-background-clip: text;
