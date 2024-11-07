@@ -84,7 +84,7 @@ const Mission_page = () => {
               transition={{ duration: 0.6, delay: 0.6 }}
               className="m-8 text-2xl leading-relaxed tracking-tight lg:max-w-xl"
             >
-              Our mission is to provide a safe haven where orphaned and
+              Our mission is to provide a safe heaven where orphaned and
               abandoned children can grow in a loving environment, receive a
               quality education, and develop the life skills needed to lead
               independent and fulfilling lives.
