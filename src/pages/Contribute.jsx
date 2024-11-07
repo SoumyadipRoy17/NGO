@@ -141,10 +141,10 @@ const Contribute = () => {
             imgSrc={mid_day_meal}
           >
             <motion.h5 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-              Donate $50
+              Donate ₹50
             </motion.h5>
             <motion.p className="font-normal text-gray-700 dark:text-gray-400">
-              With a $50 donation, you can help provide a week's worth of
+              With a ₹50 donation, you can help provide a week's worth of
               nutritious meals to a child in need, ensuring they have the energy
               to learn and grow
             </motion.p>
@@ -156,7 +156,7 @@ const Contribute = () => {
            hover:bg-pink-600"
                 onClick={openModal}
               >
-                Contribute 50 ❤️
+                Contribute ₹50 ❤️
               </Button>
             </motion.div>
           </Card>
@@ -176,10 +176,10 @@ const Contribute = () => {
             imgSrc={g_s}
           >
             <motion.h5 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-              Donate $100
+              Donate ₹100
             </motion.h5>
             <motion.p className="font-normal text-gray-700 dark:text-gray-400">
-              Your $100 donation will provide essential school supplies and
+              Your ₹100 donation will provide essential school supplies and
               uniforms for a child, giving them the tools they need to succeed
               in their education.
             </motion.p>
@@ -191,7 +191,7 @@ const Contribute = () => {
            hover:bg-pink-600"
                 onClick={openModal}
               >
-                Contribute 100 ❤️
+                Contribute ₹100 ❤️
               </Button>
             </motion.div>
           </Card>
@@ -211,10 +211,10 @@ const Contribute = () => {
             imgSrc={red_cross}
           >
             <motion.h5 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-              Donate $200
+              Donate ₹200
             </motion.h5>
             <motion.p className="font-normal text-gray-700 dark:text-gray-400">
-              Your $200 donation will help provide essential medical care and
+              Your ₹200 donation will help provide essential medical care and
               support to a child in need, ensuring they have access to the care
               they need to stay healthy and thrive.
             </motion.p>
@@ -226,7 +226,7 @@ const Contribute = () => {
            hover:bg-pink-600"
                 onClick={openModal}
               >
-                Contribute 200 ❤️
+                Contribute ₹200 ❤️
               </Button>
             </motion.div>
           </Card>
