@@ -27,25 +27,25 @@ export const LINKS = [
 export const DISHES = [
   {
     image: story1,
-    title: "Artistry in Motion",
-    description:
-      "A child expresses their creativity through painting and crafts.",
-  },
-  {
-    image: story2,
     title: "Culinary Creations",
     description:
       "Learning to cook delicious meals and experimenting with flavors.",
   },
   {
+    image: story2,
+    title: "Through Thick and Thin",
+    description: "Celebrating the essence of friendship and togetherness",
+  },
+  {
     image: story3,
-    title: "Music for the Soul",
-    description: "Playing instruments and composing tunes that inspire.",
+    title: "Fun and Play",
+    description:
+      "Engaging in games and activities that spark joy and laughter.",
   },
   {
     image: story4,
-    title: "Theatrical Talents",
-    description: "Acting and performing in plays that tell heartfelt stories.",
+    title: "The Spirirt of play",
+    description: "Capturing a child's athletic drive.",
   },
   {
     image: story5,
