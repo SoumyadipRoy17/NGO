@@ -99,22 +99,19 @@ export const CUSINES = [
     number: "01.",
     image: chess,
     title: "Chess",
-    description:
-      "Experience the flavors of Italy with our exquisite Italian cuisine, featuring traditional recipes and contemporary dishes.",
+    description: "Silent Strategies : A Young Mind's Journey through Chess",
   },
   {
     number: "02.",
     image: art_craft,
     title: "Art and Craft",
-    description:
-      "Delight in the art of Japanese culinary excellence, offering a fusion of classic and modern flavors.",
+    description: "Colors of Hope : A Child's Imagination at Play",
   },
   {
     number: "03.",
     image: carrom,
     title: "Carrom",
-    description:
-      "Indulge in the rich and diverse tastes of India, with a menu that celebrates the country's culinary heritage.",
+    description: "Precision and Patience : A Child's Journey to Victory",
   },
 ];
 
