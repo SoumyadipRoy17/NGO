@@ -33,12 +33,13 @@ const Mission = () => {
               transition={{ duration: 0.5, delay: 0.4 }}
               className="absolute h-full w-full rounded-3xl bg-black/40"
             ></motion.div>
+
             <motion.p
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 1, delay: 0.5 }}
-              className="absolute max-w-lg tracking-tighter text-gray-400 lg:text-3xl"
+              className="absolute max-w-lg tracking-tighter  text-gray-400 lg:text-3xl"
             >
               {MISSION}
             </motion.p>

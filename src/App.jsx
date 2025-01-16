@@ -1,6 +1,6 @@
 import HeroSection from "./components/HeroSection";
 import NavbarSection from "./components/NavbarSection";
-import { Route, Routes } from "react-router-dom";
+import { Route, Routes, useLocation } from "react-router-dom";
 import { BrowserRouter } from "react-router-dom";
 
 // import Dishes from "./components/Dishes";
@@ -20,11 +20,12 @@ import Contact_Us from "./pages/Contact_Us";
 import Contribute_Button from "./components/Contribute_Button";
 
 function App() {
+  //const location = useLocation();
   return (
     <main className="overflow-y-hidden text-neutral-200 antialiased">
       <NavbarSection />
       <Contribute_Button />
-
+      {/* {location.pathname !== "/contribute" && <Contribute_Button />} */}
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Home />} />

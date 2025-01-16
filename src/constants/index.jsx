@@ -13,7 +13,13 @@ import chess from "../assets/chess.jpeg";
 import art_craft from "../assets/art_craft.jpeg";
 import carrom from "../assets/carrom.jpeg";
 
-import { FaXTwitter, FaFacebook, FaInstagram } from "react-icons/fa6";
+import {
+  FaXTwitter,
+  FaFacebook,
+  FaInstagram,
+  FaYoutube,
+  FaWhatsapp,
+} from "react-icons/fa6";
 
 export const LINKS = [
   { text: "Home", targetId: "/" },
@@ -128,22 +134,26 @@ export const CONTACT = [
     value:
       "Address: VF48+878, 26/2, Devagere, Kaggalipur Road, Kumbalgodu, Bengaluru,Karnataka 560060",
   },
-  { key: "phone", value: "Phone: 123-456-7890" },
-  { key: "email", value: "Email: contact.com" },
+  { key: "phone", value: "Phone: +91 7892666797" },
+  { key: "email", value: "Email: psctbangalore@gmail.com " },
 ];
 
 export const SOCIAL_MEDIA_LINKS = [
   {
-    href: "https://x.com/",
+    href: "https://www.facebook.com/share/1NCNMbEFL9/?mibextid=qi2Omg",
     icon: <FaFacebook fontSize={30} className="hover:opacity-80" />,
   },
 
   {
-    href: "https://x.com/",
+    href: "https://www.instagram.com/rahul_gali_mudhol/profilecard/?igsh=MXRiajNxcGt1Z21pOQ==",
     icon: <FaInstagram fontSize={30} className="hover:opacity-80" />,
   },
   {
-    href: "https://x.com/",
-    icon: <FaXTwitter fontSize={30} className="hover:opacity-80" />,
+    href: "https://youtube.com/@rahulgali293?si=SPtfAKpGvOO8dm7l",
+    icon: <FaYoutube fontSize={30} className="hover:opacity-80" />,
+  },
+  {
+    href: "https://wa.link/ntasmm",
+    icon: <FaWhatsapp fontSize={30} className="hover:opacity-80" />,
   },
 ];
