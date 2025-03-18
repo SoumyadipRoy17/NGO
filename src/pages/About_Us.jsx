@@ -136,7 +136,11 @@ const About_Us = () => {
               transition={{ duration: 0.6, delay: 0.6 }}
               className="m-8 text-2xl leading-relaxed tracking-tight lg:max-w-xl"
             >
-              Details about our mentor
+              Our Mentor is an experienced professional who provides valuable
+              support to NGOs by offering mentorship in areas such as project
+              management, fundraising, governance, and community engagement.
+              They help organizations build capacity, strengthen impact, and
+              achieve long-term sustainability.
             </motion.p>
           </div>
         </div>
